@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import github from '../../assests/github.png';
+import Link from 'next/link'
 
 const index = () => {
     return (
@@ -24,41 +25,41 @@ const index = () => {
                 <div className="rounded-md  w-auto  h-auto  bg-[#87CEEB] border-2 border-black  " >
 
                     <div className="rounded-sm text-[20px] grid lg:grid-cols-2 sm:grid-cols-1 gap-4 place-items-center mt-10 " >
-                        <a href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             firebase-everything
-                        </a>
+                        </Link>
 
-                        <a href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             nextjs-prisma-sql
-                        </a>
+                        </Link>
 
 
-                        <a href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             api-saas-project
-                        </a>
+                        </Link>
 
-                        <a href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             subscription-starter
-                        </a>
+                        </Link>
 
 
-                        <a href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             taxonomy
-                        </a>
+                        </Link>
 
-                        <a href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             pinecne-vercel-ai
-                        </a>
+                        </Link>
 
-                        <a href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
                         NextJS-NestJS-GraphQL
-                        </a>
+                        </Link>
                     </div>
 
                 </div>
