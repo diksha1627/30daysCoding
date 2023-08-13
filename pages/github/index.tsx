@@ -25,39 +25,39 @@ const index = () => {
                 <div className="rounded-md  w-auto  h-auto  bg-[#87CEEB] border-2 border-black  " >
 
                     <div className="rounded-sm text-[20px] grid lg:grid-cols-2 sm:grid-cols-1 gap-4 place-items-center mt-10 " >
-                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="https://github.com/singh1aryan/firebase-everything" target="_blank" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             firebase-everything
                         </Link>
 
-                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="https://github.com/singh1aryan/nextjs-prisma-sql" target="_blank" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             nextjs-prisma-sql
                         </Link>
 
 
-                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="https://github.com/singh1aryan/api-saas-project" target="_blank" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             api-saas-project
                         </Link>
 
-                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="#" target="_blank" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             subscription-starter
                         </Link>
 
 
-                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="#" target="_blank" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             taxonomy
                         </Link>
 
-                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="#" target="_blank" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
 
                             pinecne-vercel-ai
                         </Link>
 
-                        <Link href="/" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
+                        <Link href="https://github.com/singh1aryan/NextJS-NestJS-GraphQL-Starter" target="_blank" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[21rem] m-3 bg-[#FFFFCC]  border-b-2  border-black" >
                         NextJS-NestJS-GraphQL
                         </Link>
                     </div>
