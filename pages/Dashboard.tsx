@@ -1,11 +1,9 @@
 import React from 'react'
+import Link from 'next/link';
 import steps from '../assests/general.png'
 import Image from 'next/image'
-import aryan from '../assests/coaching.png';
+import aryan from '../assests/coaching.png'; 
 import deepanshu from '../assests/teaching.png';
-import resources from '../assests/resources.jpg';
-import events from '../assests/Events.jpg';
-import youtube from '../assests/youtube.jpg'
 import live from '../assests/live-streaming.png';
 import github from '../assests/github.png';
 import react from '../assests/react.png';
@@ -18,7 +16,7 @@ import dsa from '../assests/dsa.png';
 const Dashboard = () => {
     return (
         <div className=" sm:ml-64 w-full  " >
-        <div className="grid lg:grid-cols-4  gap-y-12 md:grid-cols-1 p-2   rounded-lg mt-24 " 
+        <div className="grid lg:grid-cols-4  gap-y-1 md:grid-cols-1 p-2   rounded-lg mt-24 " 
         style={{paddingLeft:"3.5rem"}} >
 
 
@@ -36,7 +34,7 @@ const Dashboard = () => {
           </div>
 
 
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/one-on-one" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={aryan} className="w-full h-full rounded-md " alt="" />
@@ -47,11 +45,11 @@ const Dashboard = () => {
                   1:1 Aryan
                 </h5>
             </div>
-          </div>
+          </Link>
 
 
           
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/one-on-one" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={deepanshu} className="w-full h-full rounded-md " alt="" />
@@ -62,10 +60,10 @@ const Dashboard = () => {
                   1:1 Deepanshu
                 </h5>
             </div>
-          </div>
+          </Link>
 
 
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/live" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={live} className="w-full h-full rounded-md " alt="" />
@@ -76,9 +74,9 @@ const Dashboard = () => {
                   Live Classes
                 </h5>
             </div>
-          </div>
+          </Link>
 
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/github" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[5rem] h-[4.5rem] relative right-8">
               <Image src={github} className="w-full h-full rounded-md " alt="" />
@@ -89,10 +87,10 @@ const Dashboard = () => {
                   Github Repos
                 </h5>
             </div>
-          </div>
+          </Link>
 
 
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[4.5rem] p-1 h-[4.5rem] relative right-8 bg-white border border-2 rounded-md border-black " >
               <Image src={react} className="w-full h-full rounded-md " alt="" />
@@ -103,10 +101,10 @@ const Dashboard = () => {
                   Learn React
                 </h5>
             </div>
-          </div>
+          </Link>
 
 
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[5rem] h-[5rem] relative right-8 bg-white border border-2 rounded-md border-black " >
               <Image src={next} className="w-full h-full rounded-md " alt="" />
@@ -117,10 +115,10 @@ const Dashboard = () => {
                   Next Js Docs
                 </h5>
             </div>
-          </div>
+          </Link>
 
 
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[4.5rem] h-[5rem] relative right-8">
               <Image src={pre} className="w-full h-full rounded-md " alt="" />
@@ -131,9 +129,9 @@ const Dashboard = () => {
                   Pre-requisites
                 </h5>
             </div>
-          </div>
+          </Link>
 
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={database} className="w-full h-full rounded-md " alt="" />
@@ -144,10 +142,10 @@ const Dashboard = () => {
               Database , Graphql
                 </h5>
             </div>
-          </div>
+          </Link>
 
 
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={auth} className="w-full h-full rounded-md " alt="" />
@@ -158,9 +156,9 @@ const Dashboard = () => {
               Auth
                 </h5>
             </div>
-          </div>
+          </Link>
 
-          <div className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/" className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={deploy} className="w-full h-full rounded-md " alt="" />
@@ -171,9 +169,9 @@ const Dashboard = () => {
                 Deploying apps 
                 </h5>
             </div>
-          </div>
+          </Link>
 
-          <div className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/" className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={dsa} className="w-full h-full rounded-md " alt="" />
@@ -184,7 +182,7 @@ const Dashboard = () => {
                 DSA 
                 </h5>
             </div>
-          </div>
+          </Link>
   
 
         </div>
