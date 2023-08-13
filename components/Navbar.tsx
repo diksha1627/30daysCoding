@@ -2,6 +2,8 @@ import React from 'react'
 import logo from '../assests/download.png'
 import Image from 'next/image'
 import calendar from '../assests/calendar.png';
+import Link from 'next/link'
+
 const Navbar = () => {
   return (
     <nav className="fixed top-0 z-50 w-full bg-[#BFD9F9] border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
