@@ -3,6 +3,7 @@ import Image from 'next/image'
 import live from '../../assests/live-streaming.png';
 import next from '../../assests/next.png';
 import react from '../../assests/react.png';
+import Link from 'next/link';
 
 const index = () => {
   return (
@@ -43,11 +44,11 @@ const index = () => {
                 Slides: Next js Masterclass
               </h5>
             </div>
-            <div className="rounded-2xl flex justify-center border border-2 border-black p-1 w-[15rem] bg-[#FF69B4]" >
+            <Link href="/#" className="rounded-2xl flex justify-center border border-2 border-black p-1 w-[15rem] bg-[#FF69B4]" >
               <h5 className=" text-[22px] font-bold tracking-tight text-gray-900 dark:text-white">
                 slides
               </h5>
-            </div>
+            </Link>
           </div>
 
 
@@ -64,30 +65,30 @@ const index = () => {
 
             <div className="rounded-sm text-[20px] gap-1 flex flex-col" >
               Recording :
-              <h5 className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]  border-b-2  border-black" >
+              <Link target="_blank"  href="https://www.youtube.com/watch?v=Z4KqABAT8hM&ab_channel=AryanSingh" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]  border-b-2  border-black" >
 
                 Youtube Recording
-              </h5>
+              </Link>
             </div>
 
 
             <div className="rounded-2xl flex flex-col text-[20px] gap-1 flex flex-col " >
               Code :
-              <h5 className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
+              <Link target="_blank"  href="https://gist.github.com/singh1aryan/a6bfe92fde849bee53ba64536b60c1fa" className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
                 Part 1
-              </h5>
+              </Link>
 
-              <h5 className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
+              <Link target="_blank"  href="https://drive.google.com/drive/folders/1ND1pCkCCm3_MOYhINTLyLUws0BxJi9rX" className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
                 Part 2
-              </h5>
+              </Link>
             </div>
 
 
             <div className="rounded-2xl flex flex-col text-[20px] gap-1 flex flex-col " >
               Slides :
-              <h5 className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
+              <Link target="_blank"  href="https://docs.google.com/presentation/d/1Z7glYr__t04r0OZQXXAFXR4UdIhoT87WnHGExNHiAKY/edit?pli=1#slide=id.p" className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
                 slides
-              </h5>
+              </Link>
             </div>
           </div>
 
@@ -105,26 +106,26 @@ const index = () => {
 
             <div className="rounded-sm text-[20px] gap-1 flex flex-col" >
               Recording :
-              <h5 className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]  border-b-2  border-black" >
+              <Link target="_blank"  href="https://www.youtube.com/watch?v=bKbv0QuLxIc&ab_channel=AryanSingh" className=" text-[19px] rounded-2xl font-bold tracking-tight flex justify-center border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]  border-b-2  border-black" >
 
                 Youtube Recording
-              </h5>
+              </Link>
             </div>
 
 
             <div className="rounded-2xl flex flex-col text-[20px] gap-1 flex flex-col " >
               Code :
-              <h5 className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
+              <Link target="_blank"  href="https://drive.google.com/drive/folders/1hYRyF5cAx2E_Wgjqg_7JWgTleLcFuSp" className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
                 Part 1
-              </h5>
+              </Link>
             </div>
 
 
             <div className="rounded-2xl flex flex-col text-[20px] gap-1 flex flex-col " >
               Slides :
-              <h5 className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
+              <Link target="_blank"  href="https://docs.google.com/presentation/d/11arTH5nWxco8FwHNVUo2fMBX0EQMU52C27SoDdWFHPA/edit#slide=id.p" className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
                 slides
-              </h5>
+              </Link>
             </div>
 
           
