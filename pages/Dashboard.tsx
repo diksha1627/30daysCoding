@@ -15,8 +15,8 @@ import deploy from '../assests/deploy.png';
 import dsa from '../assests/dsa.png';
 const Dashboard = () => {
     return (
-        <div className="w-full ml-64" >
-        <div className="grid lg:grid-cols-4  gap-y-1 md:grid-cols-1  sm:pl-10  rounded-lg mt-24 "  >
+        <div className="w-full ml-20 lg:ml-64 md:ml-64" >
+        <div className="grid lg:grid-cols-4  gap-y-1 sm:grid-cols-1 md:grid-cols-2 sm:pl-10  rounded-lg mt-24 "  >
 
 
           <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
