@@ -19,7 +19,7 @@ const Dashboard = () => {
         <div className="grid lg:grid-cols-4  gap-y-1 sm:grid-cols-1 md:grid-cols-2 sm:pl-10  rounded-lg mt-24 "  >
 
 
-          <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/general" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={steps} className="w-full h-full rounded-md " alt="" />
@@ -30,7 +30,7 @@ const Dashboard = () => {
                   General Steps
                 </h5>
             </div>
-          </div>
+          </Link>
 
 
           <Link href="/one-on-one" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
@@ -89,7 +89,7 @@ const Dashboard = () => {
           </Link>
 
 
-          <Link href="/#" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/react" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[4.5rem] p-1 h-[4.5rem] relative right-8 bg-white border border-2 rounded-md border-black " >
               <Image src={react} className="w-full h-full rounded-md " alt="" />
@@ -103,7 +103,7 @@ const Dashboard = () => {
           </Link>
 
 
-          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/next" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[5rem] h-[5rem] relative right-8 bg-white border border-2 rounded-md border-black " >
               <Image src={next} className="w-full h-full rounded-md " alt="" />
@@ -117,7 +117,7 @@ const Dashboard = () => {
           </Link>
 
 
-          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/pre-requisites" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[4.5rem] h-[5rem] relative right-8">
               <Image src={pre} className="w-full h-full rounded-md " alt="" />
@@ -130,7 +130,7 @@ const Dashboard = () => {
             </div>
           </Link>
 
-          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/database" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={database} className="w-full h-full rounded-md " alt="" />
@@ -144,7 +144,7 @@ const Dashboard = () => {
           </Link>
 
 
-          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/auth" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={auth} className="w-full h-full rounded-md " alt="" />
@@ -157,7 +157,7 @@ const Dashboard = () => {
             </div>
           </Link>
 
-          <Link href="/" className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/deploy" className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={deploy} className="w-full h-full rounded-md " alt="" />
@@ -170,7 +170,7 @@ const Dashboard = () => {
             </div>
           </Link>
 
-          <Link href="/" className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/dsa" className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={dsa} className="w-full h-full rounded-md " alt="" />
