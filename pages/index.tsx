@@ -5,9 +5,9 @@ import Dashboard from "./Dashboard";
 
 export default function Home() {
   return (
-    <div className=" flex ">
-    <Sidebar/>
-    <div className="flex-col">
+    <div className=" flex">
+    <Sidebar />
+    <div className="flex-col ">
       <Navbar/>
          <Dashboard/>
          

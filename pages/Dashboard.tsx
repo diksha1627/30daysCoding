@@ -15,9 +15,8 @@ import deploy from '../assests/deploy.png';
 import dsa from '../assests/dsa.png';
 const Dashboard = () => {
     return (
-        <div className=" sm:ml-64 w-full  " >
-        <div className="grid lg:grid-cols-4  gap-y-1 md:grid-cols-1 p-2   rounded-lg mt-24 " 
-        style={{paddingLeft:"3.5rem"}} >
+        <div className="w-full ml-64" >
+        <div className="grid lg:grid-cols-4  gap-y-1 md:grid-cols-1  sm:pl-10  rounded-lg mt-24 "  >
 
 
           <div className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
@@ -90,7 +89,7 @@ const Dashboard = () => {
           </Link>
 
 
-          <Link href="/" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/#" className="flex border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[4.5rem] p-1 h-[4.5rem] relative right-8 bg-white border border-2 rounded-md border-black " >
               <Image src={react} className="w-full h-full rounded-md " alt="" />
