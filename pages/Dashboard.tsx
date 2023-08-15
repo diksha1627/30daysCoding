@@ -178,7 +178,7 @@ const Dashboard = () => {
             </div>
             <div className="rounded-md " >
               <h5 className=" text-[20px] font-bold tracking-tight text-gray-900 dark:text-white">
-                DSA 
+                Learn from ChatGPT
                 </h5>
             </div>
           </Link>
