@@ -170,7 +170,7 @@ const Dashboard = () => {
             </div>
           </Link>
 
-          <Link href="/dsa" className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          <Link href="/pre-requisites" className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
           >
             <div className="w-[6rem] h-[5rem] relative right-8">
               <Image src={dsa} className="w-full h-full rounded-md " alt="" />
