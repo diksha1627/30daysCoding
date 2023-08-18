@@ -16,7 +16,7 @@ const Navbar = () => {
                <path clipRule="evenodd" fillRule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
             </svg>
          </button>
-        <Link href="#" className="flex ml-2 md:mr-24 mt-2">
+        <Link href="/" className="flex ml-2 md:mr-24 mt-2">
           <Image src={logo} className="h-10  rounded-lg w-11 mr-2" alt="FlowBite Logo " />
           <div 
           className="self-center w-[11rem] flex justify-center items-center  font-semibold sm:text-xl whitespace-nowrap 
@@ -25,7 +25,7 @@ const Navbar = () => {
             Days_Coding</div>
         </Link>
       </div>
-      <div className="flex items-center bg-[#BFD9F9]">
+      {/* <div className="flex items-center bg-[#BFD9F9]">
           <div className="flex items-center ml-3 bg-[#BFD9F9]">
             <div>
               <button type="button" className="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" aria-expanded="false" data-dropdown-toggle="dropdown-user">
@@ -58,7 +58,7 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
     </div>
   </div>
 </nav>

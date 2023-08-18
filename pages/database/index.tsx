@@ -106,7 +106,7 @@ const index = () => {
               <p className='font-bold '>PRISMA.IO</p>
             </Link>
 
-            <Link target="_blank" href="https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices" className='text-[15px] bg-[#89CFF0] w-[85%] h-[3rem] rounded-[3rem] border-2 border-black flex items-center justify-center'>
+            <Link target="_blank" href="https://www.prisma.io/docs/guides/other/troubleshooting-orm/help-articles/nextjs-prisma-client-dev-practices" className='text-[13.5px] bg-[#89CFF0] w-[85%] h-[3rem] rounded-[3rem] border-2 border-black flex items-center justify-center'>
               <p className=' font-bold '>Instantiting PrismaClient with Nextjs</p>
             </Link>
 

@@ -24,11 +24,11 @@ const index = () => {
 
         <div className='w-[20rem] bg-[#9400D3] lg:w-[32rem] h-[25rem] rounded-md border-2 border-black flex-col gap-3 flex items-center justify-center'>
          
-            <Link href="#" className=' bg-[#FFD1DC] text-[30px]  w-[70%] h-[5rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
+            <Link href="https://nextjs.org/docs/getting-started/react-essentials" className=' bg-[#FFD1DC] text-[30px]  w-[70%] h-[5rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
               <p className='border-b-4 border-black font-bold '> REACT </p>
             </Link>
 
-            <Link href="#" className='  bg-[#FFD1DC] lg:text-[30px] text-[20px]  w-[70%] h-[5rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
+            <Link href="https://nextjs.org/learn/foundations/about-nextjs" className='  bg-[#FFD1DC] lg:text-[30px] text-[20px]  w-[70%] h-[5rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
               <p className='border-b-4 border-black font-bold '> WALKTHROUGH </p>
             </Link>
         </div>
@@ -54,11 +54,11 @@ const index = () => {
   
         <div className='w-[20rem] bg-[#008080] lg:w-[32rem] h-[25rem] rounded-md border-2 border-black flex-col gap-3 flex items-center justify-center'>
          
-            <Link href="#" className='bg-[#FFD1DC] lg:text-[22px] text-[14px]   w-[90%] h-[5rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
+            <Link href="https://chat.openai.com/share/8c5038bf-29e4-4d4d-b95f-7c08f0018400" className='bg-[#FFD1DC] lg:text-[22px] text-[14px]   w-[90%] h-[5rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
               <p className='border-b-4 border-black font-bold '>NEXT.JS DATA FETCHING DIFFERENCES</p>
             </Link>
 
-            <Link href="#" className=' bg-[#FFD1DC] lg:text-[25px] text-[15px]  w-[90%] h-[5rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
+            <Link href="https://chat.openai.com/share/931781cc-32fc-481c-b43c-3df5b82e579c" className=' bg-[#FFD1DC] lg:text-[25px] text-[15px]  w-[90%] h-[5rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
               <p className='border-b-4 border-black font-bold '>NEXT.JS COURSE OUTLINE</p>
             </Link>
         </div>

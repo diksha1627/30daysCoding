@@ -115,9 +115,10 @@ const index = () => {
 
             <div className="rounded-2xl flex flex-col text-[20px] gap-1 flex flex-col " >
               Code :
-              <Link target="_blank"  href="https://drive.google.com/drive/folders/1hYRyF5cAx2E_Wgjqg_7JWgTleLcFuSp" className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
+              <Link target="_blank"  href="https://drive.google.com/drive/folders/1hYRyF5cAx2E_Wgjqg_7JWgTleLcFuSpQ" className=" text-[19px] rounded-2xl  flex justify-center font-bold border border-2 border-black p-1 w-[16rem] bg-[#FF69B4]">
                 Part 1
               </Link>
+
             </div>
 
 

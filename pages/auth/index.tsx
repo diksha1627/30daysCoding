@@ -20,15 +20,15 @@ const index = () => {
 
         <div className=' bg-[#FF9F00] w-[20rem] lg:w-[32rem] h-[25rem] rounded-md border-2 border-black flex-col gap-3 flex items-center justify-center'>
          
-        <Link target="_blank" href="#" className='text-[20px]  w-[90%] bg-[#E6E6FA] h-[3.3rem] rounded-[3rem] border-2 border-black flex items-center justify-center'>
+        <Link target="_blank" href="https://next-auth.js.org/getting-started/example" className='text-[20px]  w-[90%] bg-[#E6E6FA] h-[3.3rem] rounded-[3rem] border-2 border-black flex items-center justify-center'>
               <p className=' font-bold '> GETTING STARTED </p>
             </Link>
 
-            <Link target="_blank" href="#" className='lg:text-[20px] text-[20px]  w-[90%] bg-[#E6E6FA] h-[3.3rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
+            <Link target="_blank" href="https://next-auth-example.vercel.app/  " className='lg:text-[20px] text-[20px]  w-[90%] bg-[#E6E6FA] h-[3.3rem] rounded-[5rem] border-2 border-black flex items-center justify-center'>
               <p className='font-bold '> EXAMPLE </p>
             </Link>
 
-            <Link target="_blank" href="#" className='text-[20px]  w-[90%] bg-[#E6E6FA] h-[3.3rem] rounded-[3rem] border-2 border-black flex items-center justify-center'>
+            <Link target="_blank" href="https://levelup.gitconnected.com/auth-with-firebase-for-your-next-js-react-app-in-2023-a30b65b5b2b1?gi=a46038b788e9" className='text-[20px]  w-[90%] bg-[#E6E6FA] h-[3.3rem] rounded-[3rem] border-2 border-black flex items-center justify-center'>
               <p className=' font-bold '> AUTH WITH FIREBASE </p>
             </Link>
 

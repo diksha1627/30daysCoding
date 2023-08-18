@@ -29,7 +29,7 @@ const index = () => {
       items-center border-2 border-black hover:shadow-2xl rounded-[5rem] p-2 bg-[#9ff4a3]'>
           <p className='border-b-2 border-black sm:text-[13px] md:text-[22px] lg:text-[22px] font-bold '>REACT ESSENTIALS</p>
       </Link>
-      <Link target="_blank" href="#" className='w-full flex 
+      <Link target="_blank" href="https://nextjs.org/docs/pages/building-your-application/routing/pages-and-layouts" className='w-full flex 
       justify-center items-center border-2 border-black hover:shadow-2xl
        rounded-[5rem] p-2 bg-[#FFA500]'>
           <p className='border-b-2 border-black sm:text-[13px] md:text-[22px] lg:text-[22px] font-bold '>PAGE LAYOUTS</p>
