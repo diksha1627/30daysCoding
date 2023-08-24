@@ -13,6 +13,7 @@ import database from '../assests/database.png';
 import auth from '../assests/authenticity.png';
 import deploy from '../assests/deploy.png';
 import dsa from '../assests/dsa.png';
+import youtube from '../assests/youtube.jpg'
 const Dashboard = () => {
     return (
         <div className="w-full ml-20 lg:ml-64 md:ml-64" >
@@ -179,6 +180,19 @@ const Dashboard = () => {
             <div className="rounded-md " >
               <h5 className=" text-[20px] font-bold tracking-tight text-gray-900 dark:text-white">
                 Learn from ChatGPT
+                </h5>
+            </div>
+          </Link>
+
+          <Link href="/videos" className="flex  border border-black border-2 rounded-lg hover:shadow-2xl items-center h-[7rem] w-[13rem] m-4 bg-[#FFFFCC]"  
+          >
+            <div className="w-[6rem] h-[5rem] relative right-8">
+              <Image src={youtube} className="w-full h-full rounded-md " alt="" />
+            
+            </div>
+            <div className="rounded-md " >
+              <h5 className=" text-[20px] font-bold tracking-tight text-gray-900 dark:text-white">
+                Youtube Playlists
                 </h5>
             </div>
           </Link>
