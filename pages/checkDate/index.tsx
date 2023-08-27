@@ -13,13 +13,18 @@ const Index = () => {
     const [email, setEmail] = useState('');
     const [data, setData] = useState<ApiResponse | null>(null); // Use the ApiResponse interface
 
+    const [isLoading, setIsLoading] = useState(false); // New state for the loader
+
     const handleSubmit = async (e: any) => {
         e.preventDefault();
         try {
+            setIsLoading(true); // Show loader while fetching data
             const response = await axios.post("/api/data", { email: email });
             setData(response.data);
         } catch (error) {
             console.error("Error fetching data:", error);
+        } finally {
+            setIsLoading(false); // Hide loader after fetching
         }
     }
 
@@ -55,11 +60,22 @@ const Index = () => {
 
                 </form>
 
-                <div className="mt-4 flex-col p-2  justify-center items-center border-2">
-                <p className='text-[20px]'><span className='font-bold text-[22px] font-times'> Days Left : </span>{data?.msg=="email id not found" ? "Invalid Email" : data?.daysLeft} </p>
-                <p className='text-[20px]'><span className='font-bold text-[22px] font-times'>Next Payment Date : </span> {data && formattedDate}</p>
-                    
-                    </div>  
+                <div className="mt-4 flex-col p-2 justify-center items-center border-2">
+                    {isLoading ? ( // Show loader when fetching data
+                        <p>Loading...</p>
+                    ) : (
+                        <>
+                            <p className='text-[20px]'>
+                                <span className='font-bold text-[22px] font-times'> Days Left : </span>
+                                {data?.msg === "email id not found" ? "Invalid Email" : data?.daysLeft}
+                            </p>
+                            <p className='text-[20px]'>
+                                <span className='font-bold text-[22px] font-times'>Next Payment Date : </span>
+                                {data && formattedDate}
+                            </p>
+                        </>
+                    )}
+                </div>
                
             </div>
         </div>
