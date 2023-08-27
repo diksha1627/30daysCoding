@@ -14,7 +14,7 @@ import auth from '../assests/authenticity.png';
 import deploy from '../assests/deploy.png';
 import dsa from '../assests/dsa.png';
 import youtube from '../assests/youtube.jpg'
-const Tree = () => {
+const   Tree = () => {
     return (
         <div className="tree hidden lg:block">
             <ul className="relative">
