@@ -35,7 +35,7 @@ const Index = () => {
     const formattedDate = nextPaymentDate.toLocaleDateString('en-US', options);
 
     return (
-        <div className="w-full ml-12 lg:ml-64 md:ml-64 mt-20 lg:p-10">
+        <div className="w-full ml-8 lg:ml-64 md:ml-64 mt-20 lg:p-10">
 
             <div className="">
 
