@@ -77,7 +77,7 @@ const Index = () => {
                             {data && data?.daysLeft <=5 ? (
                             <p className='text-[20px]'>
                                 <span className='font-bold text-[22px] font-times'>Extend Subscription : </span>
-                               <Link target="_blank" className='border-b-2 border-black' href="https://nightlightprojects.mojo.page/aryan-community">Payment Link</Link>
+                               <Link target="_blank" className='border-b-2 border-black' href="https://nightlightprojects.mojo.page/30-days-coding-existing-user">Payment Link</Link>
                             </p>
                              ) : '' }
                         </>
