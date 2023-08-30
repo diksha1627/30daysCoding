@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import Link from 'next/link';
 
 // Define an interface for the expected data structure
 interface ApiResponse {
@@ -67,12 +68,18 @@ const Index = () => {
                         <>
                             <p className='text-[20px]'>
                                 <span className='font-bold text-[22px] font-times'> Days Left : </span>
-                                {data?.msg === "email id not found" ? "Invalid Email" : data?.daysLeft}
+                                {data?.msg === "email id not found" ? "Invalid Email" : data && data?.daysLeft < 0 ? '0' : data?.daysLeft}
                             </p>
                             <p className='text-[20px]'>
                                 <span className='font-bold text-[22px] font-times'>Next Payment Date : </span>
                                 {data && formattedDate}
                             </p>
+                            {data && data?.daysLeft <=5 ? (
+                            <p className='text-[20px]'>
+                                <span className='font-bold text-[22px] font-times'>Extend Subscription : </span>
+                               <Link target="_blank" className='border-b-2 border-black' href="https://nightlightprojects.mojo.page/aryan-community">Payment Link</Link>
+                            </p>
+                             ) : '' }
                         </>
                     )}
                 </div>
