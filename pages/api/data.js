@@ -24,10 +24,12 @@ export default async function POST(req,res){
         console.log(user?.next_payment_date_in_datetime)
         // Calculate the time difference in milliseconds
         var timeDifference =  user.next_payment_date_in_datetime - today;
+        
  
         // Calculate the difference in days
-        var daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24)); 
-
+        var daysDifference = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+        if(daysDifference < 0) 
+         daysDifference = 0 
         let response = {status:true,daysLeft:daysDifference,next_payment_date_in_datetime:user.next_payment_date_in_datetime}
          
 

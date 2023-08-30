@@ -68,7 +68,7 @@ const Index = () => {
                         <>
                             <p className='text-[20px]'>
                                 <span className='font-bold text-[22px] font-times'> Days Left : </span>
-                                {data?.msg === "email id not found" ? "Invalid Email" : data && data?.daysLeft < 0 ? '0' : data?.daysLeft}
+                                {data?.msg === "email id not found" ? "Invalid Email" : data?.daysLeft }
                             </p>
                             <p className='text-[20px]'>
                                 <span className='font-bold text-[22px] font-times'>Next Payment Date : </span>
